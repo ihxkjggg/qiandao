@@ -18,6 +18,6 @@ jobs:
       uses: sayyid5416/pyinstaller@v1
       with:
         python-version: "3.10"
-        spec: 'R3.py'
+        spec: 'R3shujugengxin.py'
         upload_exe_with_name: 'R3更新数据库'
         uoptions: --onefile, --name "R3更新数据库", --windowed
