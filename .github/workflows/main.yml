@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: 
         pip install pyinstaller
-        pip install pandas sqlite3
+        pip install pandas
 
     - name: Build EXE
       run: 
