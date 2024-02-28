@@ -13,3 +13,4 @@ df = df[df['R3处理日期']==now]
 # df = df[df['R3处理日期']>"2024-02-21"]
 df.to_sql('R3', conn, index=False,if_exists='append')
 conn.close()
+print("OK")
