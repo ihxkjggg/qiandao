@@ -17,10 +17,6 @@ jobs:
         - name: Install dependencies
           run: pip install pyinstaller pandas
         - name: Build exe
-          uses: sayyid5416/pyinstaller@v1
-          with:
-            # python_ver: '3.12'
-            spec: 'R3shujugengxin.py'
-            upload_exe_with_name: 'R3shuju'
-            options: --onefile, --name 'R3shuju'
+          run: pyinstaller R3shujugengxin.py --onefile
+
             
