@@ -14,3 +14,4 @@ import datetime
 # df.to_sql('R3', conn, index=False,if_exists='append')
 # conn.close()
 print("OK")
+input()
