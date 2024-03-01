@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: pip install pyinstaller pandas
     - name: Build exe
-      run: pyinstaller --onefile R3shujugenxin.py
+      run: pyinstaller --onefile R3shujugengxin.py
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
