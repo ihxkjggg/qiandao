@@ -15,7 +15,7 @@ jobs:
           with:
             python-version: '3.12'
         - name: Install dependencies
-          run: pip install pyinstaller pandas sqlite3
+          run: pip install pyinstaller pandas
         - name: Build exe
           uses: sayyid5416/pyinstaller@v1
           with:
